@@ -6,6 +6,10 @@
     letter-spacing: 1px;
     font-weight: 300;
 }
+
+html {
+    scroll-behavior: smooth;
+}
 body{
     overflow-x: hidden;
     color: #333;

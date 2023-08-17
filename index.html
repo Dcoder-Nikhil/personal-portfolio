@@ -354,6 +354,7 @@
 
       document.getElementById("submit").addEventListener('click', function(e){
         e.preventDefault();
+        
         set(ref(db, 'user/'+ document.getElementById("name").value),
         {
             uname: document.getElementById("name").value,
@@ -361,7 +362,7 @@
             subject : document.getElementById("subject").value,
             msg : document.getElementById("content").value
         });
-            alert("sent successfull !!")
+            alert("sent successfull !!")   
       });
 
   </script>
